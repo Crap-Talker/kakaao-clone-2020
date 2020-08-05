@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Sim없음</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: WifiIcon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">환영합니다</h1>
+      <p class="welcome-header__text">
+        카카오 계정이나 핸드폰 번호로 로그인 해주세요.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="이메일 또는 핸드폰 번호" />
+      <input type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <input type="submit" value="가입하기" />
+      <a href="#">계정이나 비밀번호가 생각나지 않으세요?</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/130783b121.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
