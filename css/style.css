@@ -6,10 +6,21 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/badge.css";
 
 /*screens*/
 @import "screens/login-form.css";
+@import "screens/freinds.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;
+  color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
